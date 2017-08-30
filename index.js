@@ -1,3 +1,3 @@
 'use strict'
 
-// todo
+throw new Error('chakracore-bin cannot be used as a library.')

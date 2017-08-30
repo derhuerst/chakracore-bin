@@ -3,9 +3,11 @@
 	"description": "Static Node-ChakraCore binaries to use locally.",
 	"version": "0.1.0",
 	"main": "index.js",
+	"bin": {
+		"node": "./node-chakracore"
+	},
 	"files": [
-		"index.js",
-		"bin"
+		"index.js"
 	],
 	"keywords": [
 		"node",
@@ -21,13 +23,10 @@
 		"node": ">=6"
 	},
 	"dependencies": {
-	},
-	"devDependencies": {
-		"tape": "^4.6.3",
-		"tap-min": "^1.2.1"
+		"download-chakracore": "^0.1.0"
 	},
 	"scripts": {
-		"test": "node test.js | tap-min",
-		"prepublishOnly": "npm test"
+		"install": "download-chakracore ./node-chakracore",
+		"prepublishOnly": "npm install"
 	}
 }
