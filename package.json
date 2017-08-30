@@ -1,7 +1,7 @@
 {
 	"name": "chakracore-bin",
 	"description": "Static Node-ChakraCore binaries to use locally.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "index.js",
 	"bin": {
 		"node": "./node-chakracore"
@@ -26,7 +26,7 @@
 		"download-chakracore": "^0.1.0"
 	},
 	"scripts": {
-		"install": "download-chakracore ./node-chakracore",
-		"prepublishOnly": "npm install"
+		"preinstall": "download-chakracore ./node-chakracore",
+		"prepublishOnly": "npm preinstall"
 	}
 }
