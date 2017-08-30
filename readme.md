@@ -18,7 +18,7 @@ npm install chakracore-bin
 
 ## Usage
 
-[npm scripts](https://docs.npmjs.com/cli/run-script) run with `node_modules/.bin` inside [`$PATH`](#todo). This is what this `chakracore-bin` makes use of: It exposes ChakraCore as a `node` executable. To run your code with it, you therefore need to use an npm script:
+[npm scripts](https://docs.npmjs.com/cli/run-script) run with `node_modules/.bin` inside [`$PATH`](https://en.wikipedia.org/wiki/PATH_(variable)). This is what this `chakracore-bin` makes use of: It exposes ChakraCore as a `node` executable. To run your code with it, you therefore need to use an npm script:
 
 ```js
 {
