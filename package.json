@@ -1,0 +1,33 @@
+{
+	"name": "chakracore-bin",
+	"description": "Static Node-ChakraCore binaries to use locally.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"bin"
+	],
+	"keywords": [
+		"node",
+		"chakracore",
+		"bin"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/chakracore-bin",
+	"repository": "derhuerst/chakracore-bin",
+	"bugs": "https://github.com/derhuerst/chakracore-bin/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tape": "^4.6.3",
+		"tap-min": "^1.2.1"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
