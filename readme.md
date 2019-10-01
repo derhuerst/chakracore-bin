@@ -4,7 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/chakracore-bin.svg)](https://www.npmjs.com/package/chakracore-bin)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/chakracore-bin.svg)
-[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
+[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst) [![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/chakracore-bin.svg)](https://greenkeeper.io/)
 
 
 ## Installing
