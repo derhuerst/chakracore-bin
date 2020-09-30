@@ -1,7 +1,7 @@
 {
 	"name": "chakracore-bin",
 	"description": "Static Node-ChakraCore binaries to use locally.",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"main": "index.js",
 	"bin": {
 		"node": "./node-chakracore"

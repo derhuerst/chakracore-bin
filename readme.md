@@ -1,5 +1,9 @@
 # chakracore-bin
 
+**Deprecated. The [Node-ChakraCore](https://github.com/nodejs/node-chakracore) project has been archived.**
+
+---
+
 **Static [Node-ChakraCore](https://github.com/nodejs/node-chakracore#installing-prebuilt-node-chakracore-binaries) binaries to use locally.** Works like [node-bin](https://www.npmjs.com/node-bin).
 
 [![npm version](https://img.shields.io/npm/v/chakracore-bin.svg)](https://www.npmjs.com/package/chakracore-bin)
